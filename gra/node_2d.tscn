@@ -3,10 +3,12 @@
 [ext_resource type="Texture2D" uid="uid://bpc0echud4qvq" path="res://baba.png" id="1_wtcfe"]
 
 [node name="Node2D" type="Node2D" unique_id=1630157331]
+light_mask = 256
+position = Vector2(22, 14)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=545046585]
 position = Vector2(335, 419)
 
-[node name="Baba" type="Sprite2D" parent="." unique_id=1419216414]
+[node name="stara baba" type="Sprite2D" parent="." unique_id=1419216414]
 position = Vector2(620, 495)
 texture = ExtResource("1_wtcfe")
